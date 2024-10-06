@@ -24,6 +24,11 @@
     justify-content: center;
     align-items: center;
     gap: 70px;
+    
+}
+
+.navbar-links li:hover {
+    color: var(--PrimaryColor);
 }
 
 
@@ -34,6 +39,7 @@ li {
     font-size: 18px;
     color: #000000;
     cursor: pointer;
+    transition: color 0.3s ease;
 }
 
 .navbar-name {
