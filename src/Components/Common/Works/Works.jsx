@@ -16,6 +16,7 @@ const Works = () => {
             title={"Frontenlab"}
             description={"FrontenLab is a platform I built entirely using React, focusing on frontend challenges to help developers improve their skills. It features responsive design and interactive challenges, with all components styled using CSS and managed through React's state management."}
             reverse={false}
+            link={"https://www.frontenlab.com/"}
           />
 
           <Work 
@@ -30,6 +31,7 @@ const Works = () => {
             title={"Learnerr"}
             description={"Learnerr is an online learning platform I created using React. It features dynamic course pages and interactive content, all built with React components. While the project doesn't use any external APIs, it simulates an immersive learning environment through custom state management and routing."}
             reverse={false}
+            link={"https://mr-anas1.github.io/Learnerr/"}
           />
 
         </div>
