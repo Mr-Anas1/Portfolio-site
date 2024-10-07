@@ -61,17 +61,8 @@
     from {width: 0;}
 }
 
-.hero-btn {
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: var(--PrimaryColor);
-    color: var(--WhiteColor);
-    font-size: 18px;
+.btn {
     margin-top: 20px;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-btn:hover {

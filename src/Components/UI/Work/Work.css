@@ -1,0 +1,43 @@
+.work-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.work-img {
+    max-width: 600px;
+    height: auto;
+}
+
+.work-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.work-content-heading {
+    font-size: 44px;
+    color: #333333;
+}
+
+.work-content{
+    width: 50%;
+}
+
+
+.work-content-btn {
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: var(--PrimaryColor);
+    color: var(--WhiteColor);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
