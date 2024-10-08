@@ -18,3 +18,34 @@
     gap: 30px;
     width: 100%;
 }
+
+@media screen and (max-width: 1250px) {
+    .Works {
+        margin: 0px 80px;
+    }
+
+    .works-heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    .works-container {
+        gap: 50px;
+    }
+
+    .Works {
+        margin: 40px;
+        gap: 30px;
+    }
+
+    .works-heading {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Works {
+        margin: 15px;
+    }
+}
