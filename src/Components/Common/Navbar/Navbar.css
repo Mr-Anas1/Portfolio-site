@@ -4,6 +4,7 @@
     overflow-x: hidden;
 }
 
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,11 @@
     
 }
 
-.navbar-links li:hover {
+.navbar-links li a{
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
     color: var(--PrimaryColor);
 }
 
@@ -39,7 +44,6 @@ li {
     font-size: 18px;
     color: #000000;
     cursor: pointer;
-    transition: color 0.3s ease;
 }
 
 .navbar-name {
@@ -77,8 +81,9 @@ li {
         flex-direction: column;
         gap: 20px;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: #2e2f39;
+
     }
 
     .navbar-links-mobile {
@@ -87,7 +92,7 @@ li {
         padding: 30px;
     }
 
-    .navbar-links-mobile li {
+    .navbar-links-mobile li a {
         color: var(--WhiteColor);
     }
 }

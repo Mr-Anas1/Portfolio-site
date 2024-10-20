@@ -1,0 +1,84 @@
+.Contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small-txt {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.small-txt span {
+    color: var(--PrimaryColor);
+}
+
+.contact-title {
+    font-size: 38px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    border: 1px solid #BDC1CA;
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+
+.mail-icon {
+    font-size: 24px;
+    position: relative;
+    top: 1px;
+}
+
+.contact-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.linkedin-icon {
+    color: #006EAB;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    transform: translateY(-5px);
+}
+@media screen and (max-width: 550px) {
+    .contact-title {
+        font-size: 30px;
+    }
+
+    .social-icon {
+        font-size: 28px;
+    }
+
+    .contact-box {
+        padding: 12px;
+    }
+}

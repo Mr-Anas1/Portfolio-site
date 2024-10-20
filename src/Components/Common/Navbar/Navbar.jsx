@@ -22,9 +22,9 @@ const Navbar = () => {
                 <div className={`navbar-right ${closeIcon === 0 ? 'navbar-right-mobile' : ''}`}>
                 {console.log(closeIcon)}
                     <div className={`navbar-links ${closeIcon === 0 ? 'navbar-links-mobile' : ''}`}>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#works">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </div>
                     
                 </div>
@@ -41,6 +41,7 @@ const Navbar = () => {
             <div className="navbar-line"></div>
 
         </div>
+
     )
 }
 

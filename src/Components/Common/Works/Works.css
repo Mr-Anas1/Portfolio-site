@@ -15,7 +15,7 @@
 .works-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 120px;
     width: 100%;
 }
 
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 978px) {
     .works-container {
-        gap: 50px;
+        gap: 80px;
     }
 
     .Works {
@@ -46,6 +46,7 @@
 
 @media screen and (max-width: 768px){
     .Works {
-        margin: 15px;
+        margin: 80px 15px 0px;
     }
+
 }
