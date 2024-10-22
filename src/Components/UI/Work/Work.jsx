@@ -14,7 +14,7 @@ const Work = ({img, title, description, link, reverse}) => {
                 <div className="work-content">
                     <div className="work-content-heading">{title}</div>
                     <p className="work-content-description">{description}</p>
-                    <button className="main-btn">Live Site</button>
+                    <a href={link} target='blank'><button className="main-btn">Live Site</button></a>
                 </div>
             </div>
         </div>
