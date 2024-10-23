@@ -26,7 +26,7 @@
     color: var(--PrimaryColor); 
 }
 
-.footer-copyright {
+.footer-copyright div {
     color: #9095A1;
 }
 

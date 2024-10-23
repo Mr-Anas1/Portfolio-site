@@ -19,20 +19,22 @@ const Works = () => {
             link={"https://www.frontenlab.com/"}
           />
 
-          <Work 
-            img={listen}  
-            title={"Listen"}
-            description={"Listen is a podcast app I started developing using React. While it's still under construction, the current version includes the basic UI setup and navigation. The project doesn't yet integrate with any APIs, but the design and structure are ready for future updates."}
-            reverse={true}
-            link={"https://mr-anas1.github.io/listen/"}
-          />
 
           <Work 
             img={learnerr}  
             title={"Learnerr"}
             description={"Learnerr is an online learning platform I created using React. It features dynamic course pages and interactive content, all built with React components. While the project doesn't use any external APIs, it simulates an immersive learning environment through custom state management and routing."}
-            reverse={false}
+            reverse={true}
             link={"https://mr-anas1.github.io/Learnerr/"}
+          />
+
+        <div className="works-heading">Under Construction</div>
+        <Work 
+            img={listen}  
+            title={"Listen"}
+            description={"Listen is a podcast app I started developing using React. While it's still under construction, the current version includes the basic UI setup and navigation. The project doesn't yet integrate with any APIs, but the design and structure are ready for future updates."}
+            reverse={false}
+            link={"https://mr-anas1.github.io/listen/"}
           />
 
         </div>
