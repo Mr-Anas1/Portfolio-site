@@ -24,6 +24,7 @@ const Works = () => {
             title={"Listen"}
             description={"Listen is a podcast app I started developing using React. While it's still under construction, the current version includes the basic UI setup and navigation. The project doesn't yet integrate with any APIs, but the design and structure are ready for future updates."}
             reverse={true}
+            link={"https://mr-anas1.github.io/listen/"}
           />
 
           <Work 
